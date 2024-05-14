@@ -1,0 +1,73 @@
+/* styles.css */
+ 
+/* Body styles */
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+}
+ 
+/* Header styles */
+header {
+   background-color: #333;
+   color: #fff;
+   padding: 10px;
+   text-align: center;
+}
+ 
+/* Main content styles */
+.container {
+   max-width: 800px;
+   margin: 20px auto;
+   padding: 20px;
+}
+ 
+/* Form styles */
+form {
+   margin-bottom: 20px;
+}
+ 
+input[type="text"],
+input[type="password"],
+button {
+   padding: 10px;
+   margin: 5px 0;
+   width: 100%;
+   box-sizing: border-box;
+}
+ 
+button {
+   background-color: #333;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+}
+ 
+button:hover {
+   background-color: #555;
+}
+ 
+/* Error message styles */
+.error {
+   color: red;
+   margin-bottom: 10px;
+}
+ 
+/* Dashboard styles */
+.dashboard {
+   text-align: center;
+}
+ 
+/* Logout link styles */
+.logout-link {
+   color: #333;
+   text-decoration: none;
+   border: 1px solid #333;
+   padding: 5px 10px;
+   border-radius: 5px;
+}
+ 
+.logout-link:hover {
+   background-color: #333;
+   color: #fff;
+}
